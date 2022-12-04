@@ -1,0 +1,165 @@
+@media screen and (max-width: 990px){
+    .os-item-cards-ara{
+        width: 80px;
+    }
+    .windows{
+        width: 300px;
+    }
+    .android{
+        width: 300px;
+    }
+    .ds-3-content{
+        width: 100%;
+    }
+    .ds-3-content .right{
+        text-align: center;
+    }
+    .ds-3-content .ips{
+        width: 100%;
+    }
+    .ds-3-content .how-to-dns{
+        margin: 10px auto;
+    }
+    .social{
+        background: rgba(0, 0, 0, 0);
+        position: relative;
+        padding: 5px;
+        border-radius: 40px;
+        margin: 20px;
+        height: 100%;
+        text-align: center;
+        box-shadow: -30px 30px 50px rgba(0,0,0,0.1);
+        font-size: 40px;
+        z-index: 1;
+        vertical-align: middle;
+    }
+    .fa-globe{
+        color: #9a00c5;
+    }
+    .sobr{
+        display: none;
+    }
+    .social span{
+        font-size: 19px;
+        position: absolute;
+        color: white;
+        box-shadow: -30px 30px 50px rgba(0,0,0,0.5);
+        background: #3d95ff;
+        padding: 6px 20px;
+        border-radius: 40px;
+        margin: 10px 0;
+        z-index: 1;
+        left: 2px;
+        opacity: 0;
+        transition: 0.5s ease;
+
+    }
+    .social a{
+        margin: auto 3%;
+    }
+    .social a span{
+        display: none;
+    }
+
+}
+
+
+
+@media screen and (max-width: 801px){
+    .Header{
+        padding-bottom: 90px;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    .social{
+
+    }
+    .os-items{
+        flex-direction: column-reverse;
+    }
+    .os-item-cards-ara{
+        display: none;
+    }
+    .middle-content{
+        text-align: center;
+        justify-content: center;
+    }
+    .col2{
+        display: none;
+    }
+    .windows{
+        width: 70%;
+        margin: 10px 0;
+        text-align: center;
+    }
+    .android{
+        width: 70%;
+        margin: 10px 0;
+        text-align: center;
+    }
+    #svgos{
+        display: none;
+    }
+    #svgos2{
+        display: none;
+    }
+    .windows:hover{
+        transform: none !important;
+    }
+    .android:hover{
+        transform: none !important;
+    }
+    .dns-setting{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    .ds-3-content .ips{
+        width: 100%;
+        text-align: center;
+    }
+    .ds-3-content{
+        flex-direction: column-reverse;
+    }
+    .ds-3-content .right{
+        width: 100%;
+        text-align: center;
+    }
+    .ds-3-content .left{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #br1, #br2{
+        display: none;
+    }
+    .ds-3-content .how-to-dns{
+        margin: 10px auto;
+    }
+    .about{
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .about .abs{
+        justify-content: center;
+        text-align: center;
+        margin: 30px auto;
+    }
+    .accr{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .acorbg{
+        width: 100%;
+    }
+    .tabs .tab .tab-label{
+        font-size: 13px;
+    }
+    .tabs .tab .tab-content{
+        font-size: 12px;
+    }
+    .askmotion{
+        display: none;
+    }
+    .askmotion2{
+        display: block;
+    }
+}
